@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Richard — Desenvolvedor Freelancer</title>
+<meta name="description" content="Landing pages, sites institucionais e sistemas sob medida com back-end em Python. Atendimento em todo o Brasil — peça seu orçamento pelo WhatsApp.">
+<meta name="theme-color" content="#1E3A5F">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<!-- Prévia ao compartilhar o link (WhatsApp, Instagram, LinkedIn etc.) -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Richard.dev">
+<meta property="og:title" content="Richard — Sites e sistemas sob medida">
+<meta property="og:description" content="Landing pages, sites institucionais e sistemas sob medida com back-end em Python. Atendimento em todo o Brasil.">
+<!-- Depois de publicar, troque pelo endereço completo, ex.: https://seudominio.com.br/og-image.png -->
+<meta property="og:image" content="og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=Work+Sans:wght@400;500;600&amp;display=swap">
+<style>
+*{box-sizing:border-box}
+:root{--pad-x:170px;--h1-size:52px;--h2-size:32px}
+@media (max-width: 1280px){
+:root{--pad-x:80px}
+}
+body{margin:0;font-family:'Work Sans',sans-serif;background:#FAFAF8;overflow-x:hidden}
+h1,h2,h3{font-family:'Fraunces',serif}
+a{text-decoration:none}
+.site-nav{display:flex;align-items:center;gap:32px}
+.nav-menu{display:flex;align-items:center;gap:32px}
+.nav-menu a{white-space:nowrap}
+.nav-toggle{display:none;width:40px;height:40px;padding:0;align-items:center;justify-content:center;background:none;border:1px solid #D8D4C8;border-radius:8px;cursor:pointer;color:#1A1A1A}
+.nav-toggle .icon-close{display:none}
+.nav-toggle[aria-expanded="true"] .icon-open{display:none}
+.nav-toggle[aria-expanded="true"] .icon-close{display:block}
+.maint-band{display:flex;align-items:center;justify-content:space-between;gap:24px}
+@media (max-width: 640px){
+.maint-band{flex-direction:column;align-items:stretch;gap:18px}
+}
+@media (max-width: 900px){
+:root{--pad-x:32px;--h1-size:36px;--h2-size:26px}
+}
+@media (max-width: 1040px){
+.site-nav{gap:12px}
+.nav-toggle{display:inline-flex}
+.nav-menu{display:none;position:absolute;top:100%;left:0;right:0;z-index:10;flex-direction:column;align-items:stretch;gap:0;padding:4px var(--pad-x) 12px;background:#FAFAF8;border-bottom:1px solid #E4E0D4;box-shadow:0 8px 16px rgba(26,26,26,0.06)}
+.nav-menu.open{display:flex}
+.nav-menu a{padding:14px 0;border-top:1px solid #E4E0D4}
+}
+@media (max-width: 480px){
+:root{--pad-x:20px}
+.nav-cta{padding:10px 14px !important}
+}
+@media (max-width: 380px){
+.logo{font-size:19px !important}
+.site-nav{gap:8px}
+.nav-cta{padding:9px 12px !important;font-size:13px !important}
+.nav-toggle{width:38px;height:38px}
+}
+</style>
+</head>
+<body>
+<div style="width: 100%; box-sizing: border-box; display: flex; flex-direction: column; background: #FAFAF8; overflow-x: hidden">
+
+<header style="position: relative; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 26px var(--pad-x)">
+<div class="logo" style="font-family: 'Fraunces', serif; font-weight: 700; font-size: 22px; color: #1A1A1A; white-space: nowrap">Richard<span style="color: #1E3A5F">.dev</span></div>
+<nav class="site-nav">
+<span class="nav-menu" id="nav-menu">
+<a href="#servicos" style="font-size: 15px; font-weight: 500; color: #1A1A1A">Serviços</a>
+<a href="#como-funciona" style="font-size: 15px; font-weight: 500; color: #1A1A1A">Como funciona</a>
+<a href="#portfolio" style="font-size: 15px; font-weight: 500; color: #1A1A1A">Portfólio</a>
+<a href="#precos" style="font-size: 15px; font-weight: 500; color: #1A1A1A">Preços</a>
+<a href="#faq" style="font-size: 15px; font-weight: 500; color: #1A1A1A">FAQ</a>
+<a href="#contato" style="font-size: 15px; font-weight: 500; color: #1A1A1A">Contato</a>
+</span>
+<a href="https://wa.me/5535998832986?text=Ol%C3%A1!%20Vi%20o%20site%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener" class="nav-cta" style="padding: 10px 20px; background: #1E3A5F; color: #FFFFFF; font-weight: 600; font-size: 14px; border-radius: 8px; white-space: nowrap">Fale comigo</a>
+<button type="button" class="nav-toggle" aria-controls="nav-menu" aria-expanded="false" aria-label="Abrir menu">
+<svg class="icon-open" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 5h14M3 10h14M3 15h14"/></svg>
+<svg class="icon-close" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15"/></svg>
+</button>
+</nav>
+</header>
+<script>
+(function(){
+var btn=document.querySelector('.nav-toggle'),menu=document.getElementById('nav-menu');
+function setOpen(open){menu.classList.toggle('open',open);btn.setAttribute('aria-expanded',open);btn.setAttribute('aria-label',open?'Fechar menu':'Abrir menu')}
+btn.addEventListener('click',function(){setOpen(!menu.classList.contains('open'))});
+menu.addEventListener('click',function(e){if(e.target.closest('a'))setOpen(false)});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')setOpen(false)});
+})();
+</script>
+
+<section id="hero" style="padding: 60px var(--pad-x) 90px var(--pad-x); display: flex; flex-direction: column; gap: 22px; max-width: 900px; box-sizing: border-box">
+<div style="font-size: 14px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #1E3A5F">Sites e Sistemas - Atendimento em todo o Brasil</div>
+<h1 style="margin: 0; font-size: var(--h1-size); line-height: 1.12; font-weight: 700; color: #1A1A1A">Sites e sistemas sob medida para o seu negócio crescer</h1>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #6B675F; max-width: 620px">Desenvolvo landing pages, sites institucionais e pequenos sistemas sob medida, com foco em performance e um back-end sólido em Python.</p>
+<div style="display: flex; gap: 16px; margin-top: 10px; flex-wrap: wrap">
+<a href="https://wa.me/5535998832986?text=Ol%C3%A1!%20Vi%20o%20site%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener"  style="display: inline-flex; align-items: center; padding: 16px 28px; background: #1E3A5F; color: #FFFFFF; font-weight: 600; font-size: 16px; border-radius: 8px">Falar no WhatsApp</a>
+<a href="#portfolio" style="display: inline-flex; align-items: center; padding: 16px 28px; border: 1px solid #D8D4C8; color: #1A1A1A; font-weight: 600; font-size: 16px; border-radius: 8px">Ver portfólio</a>
+</div>
+</section>
+
+<section id="servicos" style="padding: 80px var(--pad-x); display: flex; flex-direction: column; gap: 32px; background: #F3F1EA; box-sizing: border-box">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<h2 style="margin: 0; font-size: var(--h2-size); font-weight: 700; color: #1A1A1A">O que eu posso fazer pelo seu negócio</h2>
+<p style="margin: 0; font-size: 16px; color: #6B675F">Cada projeto é pensado sob medida para o seu objetivo.</p>
+</div>
+<div style="display: flex; gap: 24px; flex-wrap: wrap">
+<div style="flex: 1; min-width: min(280px, 100%); background: #FFFFFF; border: 1px solid #E4E0D4; border-radius: 12px; padding: 28px; display: flex; flex-direction: column; gap: 10px">
+<h3 style="margin: 0; font-size: 18px; font-weight: 600; color: #1A1A1A">Landing Pages</h3>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #6B675F">Páginas únicas focadas em conversão — ideais para campanhas, lançamentos ou apresentar rápido o seu negócio.</p>
+</div>
+<div style="flex: 1; min-width: min(280px, 100%); background: #FFFFFF; border: 1px solid #E4E0D4; border-radius: 12px; padding: 28px; display: flex; flex-direction: column; gap: 10px">
+<h3 style="margin: 0; font-size: 18px; font-weight: 600; color: #1A1A1A">Sites Institucionais</h3>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #6B675F">Presença completa para a sua empresa, com todas as informações que seus clientes procuram.</p>
+</div>
+<div style="flex: 1; min-width: min(280px, 100%); background: #FFFFFF; border: 1px solid #E4E0D4; border-radius: 12px; padding: 28px; display: flex; flex-direction: column; gap: 10px">
+<h3 style="margin: 0; font-size: 18px; font-weight: 600; color: #1A1A1A">Sistemas &amp; Automações</h3>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #6B675F">Pequenas aplicações sob medida, com back-end em Python, para resolver processos específicos do seu negócio.</p>
+</div>
+<div style="flex: 1; min-width: min(280px, 100%); background: #FFFFFF; border: 1px solid #E4E0D4; border-radius: 12px; padding: 28px; display: flex; flex-direction: column; gap: 10px">
+<h3 style="margin: 0; font-size: 18px; font-weight: 600; color: #1A1A1A">Manutenção &amp; Suporte</h3>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #6B675F">Ajustes, atualizações e suporte contínuo para o seu site não ficar parado no tempo.</p>
+</div>
+</div>
+</section>
+
+<section id="como-funciona" style="padding: 80px var(--pad-x); display: flex; flex-direction: column; gap: 32px; box-sizing: border-box">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<h2 style="margin: 0; font-size: var(--h2-size); font-weight: 700; color: #1A1A1A">Como funciona</h2>
+<p style="margin: 0; font-size: 16px; color: #6B675F">Um processo simples, do primeiro contato ao site no ar.</p>
+</div>
+<div style="display: flex; gap: 24px; flex-wrap: wrap">
+<div style="flex: 1; min-width: min(220px, 100%); display: flex; flex-direction: column; gap: 8px">
+<div style="font-family: 'Fraunces', serif; font-size: 28px; font-weight: 700; color: #1E3A5F">01</div>
+<h3 style="margin: 0; font-size: 17px; font-weight: 600; color: #1A1A1A">Briefing</h3>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #6B675F">Conversamos sobre o seu negócio, seus objetivos e o que você precisa no site.</p>
+</div>
+<div style="flex: 1; min-width: min(220px, 100%); display: flex; flex-direction: column; gap: 8px">
+<div style="font-family: 'Fraunces', serif; font-size: 28px; font-weight: 700; color: #1E3A5F">02</div>
+<h3 style="margin: 0; font-size: 17px; font-weight: 600; color: #1A1A1A">Proposta</h3>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #6B675F">Você recebe um orçamento claro, com prazo e escopo definidos antes de começar.</p>
+</div>
+<div style="flex: 1; min-width: min(220px, 100%); display: flex; flex-direction: column; gap: 8px">
+<div style="font-family: 'Fraunces', serif; font-size: 28px; font-weight: 700; color: #1E3A5F">03</div>
+<h3 style="margin: 0; font-size: 17px; font-weight: 600; color: #1A1A1A">Desenvolvimento</h3>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #6B675F">Eu construo o site, mantendo você atualizado sobre o progresso.</p>
+</div>
+<div style="flex: 1; min-width: min(220px, 100%); display: flex; flex-direction: column; gap: 8px">
+<div style="font-family: 'Fraunces', serif; font-size: 28px; font-weight: 700; color: #1E3A5F">04</div>
+<h3 style="margin: 0; font-size: 17px; font-weight: 600; color: #1A1A1A">Entrega</h3>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #6B675F">Site no ar, testado e pronto para receber seus clientes.</p>
+</div>
+</div>
+</section>
+
+<section id="portfolio" style="padding: 80px var(--pad-x); display: flex; flex-direction: column; gap: 32px; background: #F3F1EA; box-sizing: border-box">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<h2 style="margin: 0; font-size: var(--h2-size); font-weight: 700; color: #1A1A1A">Portfólio</h2>
+<p style="margin: 0; font-size: 16px; color: #6B675F">Alguns projetos que já desenvolvi.</p>
+</div>
+<div style="display: flex; gap: 24px; flex-wrap: wrap">
+<div style="flex: 1; min-width: min(300px, 100%); background: #FFFFFF; border: 1px solid #E4E0D4; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column">
+<img src="img/controle-de-gastos.png" alt="Terminal do Controle de Gastos mostrando o menu e o relatório por categoria" loading="lazy" style="display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: top left; background: #1E1E1E; border-bottom: 1px solid #E4E0D4">
+<div style="padding: 22px; display: flex; flex-direction: column; gap: 10px">
+<span style="align-self: flex-start; padding: 4px 10px; background: #F3F1EA; color: #6B675F; font-size: 12px; font-weight: 600; border-radius: 999px">Projeto pessoal</span>
+<h3 style="margin: 0; font-size: 18px; font-weight: 600; color: #1A1A1A">Controle de Gastos</h3>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #6B675F">Aplicação em Python para controle de despesas pessoais, com persistência em JSON, relatórios por categoria e menu interativo.</p>
+<a href="https://github.com/Richard-456/controle_de_gastos" style="font-size: 14px; font-weight: 600; color: #1E3A5F">Ver no GitHub →</a>
+</div>
+</div>
+<div style="flex: 1; min-width: min(300px, 100%); background: #FFFFFF; border: 1px solid #E4E0D4; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column">
+<img src="img/apex-gym.webp" alt="Página inicial da landing page Apex Gym" loading="lazy" style="display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: top left; background: #0B0B0B; border-bottom: 1px solid #E4E0D4">
+<div style="padding: 22px; display: flex; flex-direction: column; gap: 10px">
+<span style="align-self: flex-start; padding: 4px 10px; background: #F3F1EA; color: #6B675F; font-size: 12px; font-weight: 600; border-radius: 999px">Projeto conceito</span>
+<h3 style="margin: 0; font-size: 18px; font-weight: 600; color: #1A1A1A">Apex Gym</h3>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #6B675F">Landing page para academia, com seções de serviços, planos e prova social. Layout focado em conversão.</p>
+<a href="https://apexgym-br.vercel.app/" target="_blank" rel="noopener" style="font-size: 14px; font-weight: 600; color: #1E3A5F">Ver projeto →</a>
+</div>
+</div>
+<div style="flex: 1; min-width: min(300px, 100%); background: #FFFFFF; border: 1px solid #E4E0D4; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column">
+<img src="img/techstore.webp" alt="Página inicial da loja virtual TechStore" loading="lazy" style="display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: top left; background: #0B0B0B; border-bottom: 1px solid #E4E0D4">
+<div style="padding: 22px; display: flex; flex-direction: column; gap: 10px">
+<span style="align-self: flex-start; padding: 4px 10px; background: #F3F1EA; color: #6B675F; font-size: 12px; font-weight: 600; border-radius: 999px">Projeto conceito</span>
+<h3 style="margin: 0; font-size: 18px; font-weight: 600; color: #1A1A1A">TechStore</h3>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #6B675F">Loja virtual com catálogo de produtos, carrinho e destaque de ofertas.</p>
+<a href="https://techstore-br.vercel.app/" target="_blank" rel="noopener" style="font-size: 14px; font-weight: 600; color: #1E3A5F">Ver projeto →</a>
+</div>
+</div>
+</div>
+</section>
+
+<section id="precos" style="padding: 80px var(--pad-x); display: flex; flex-direction: column; gap: 32px; box-sizing: border-box">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<h2 style="margin: 0; font-size: var(--h2-size); font-weight: 700; color: #1A1A1A">Investimento</h2>
+<p style="margin: 0; font-size: 16px; color: #6B675F">Preços de referência — valores podem variar conforme a complexidade do projeto.</p>
+</div>
+<div style="display: flex; gap: 22px; flex-wrap: wrap; align-items: stretch">
+
+<div style="flex: 1; min-width: min(230px, 100%); background: #FFFFFF; border: 1px solid #E4E0D4; border-radius: 12px; padding: 26px; display: flex; flex-direction: column; gap: 14px">
+<h3 style="margin: 0; font-size: 18px; font-weight: 600; color: #1A1A1A">Landing Page</h3>
+<div><span style="font-size: 12px; color: #6B675F">a partir de</span><br><span style="font-size: 28px; font-weight: 700; color: #1E3A5F">R$ 397,00</span></div>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 6px">
+<li style="font-size: 13px; color: #3A3833">• 1 página focada em conversão</li>
+<li style="font-size: 13px; color: #3A3833">• Design responsivo</li>
+<li style="font-size: 13px; color: #3A3833">• Botão de WhatsApp integrado</li>
+</ul>
+<a href="https://wa.me/5535998832986?text=Ol%C3%A1!%20Tenho%20interesse%20no%20pacote%20Landing%20Page." style="margin-top: auto; text-align: center; padding: 12px 20px; border: 1px solid #1E3A5F; color: #1E3A5F; font-weight: 600; font-size: 14px; border-radius: 8px">Quero este plano</a>
+</div>
+
+<div style="flex: 1; min-width: min(230px, 100%); background: #FFFFFF; border: 2px solid #1E3A5F; border-radius: 12px; padding: 26px; display: flex; flex-direction: column; gap: 14px">
+<span style="align-self: flex-start; padding: 4px 12px; background: #1E3A5F; color: #FFFFFF; font-size: 12px; font-weight: 600; border-radius: 999px">Mais popular</span>
+<h3 style="margin: 0; font-size: 18px; font-weight: 600; color: #1A1A1A">Site Institucional</h3>
+<div><span style="font-size: 12px; color: #6B675F">a partir de</span><br><span style="font-size: 28px; font-weight: 700; color: #1E3A5F">R$ 797,00</span></div>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 6px">
+<li style="font-size: 13px; color: #3A3833">• Até 5 páginas</li>
+<li style="font-size: 13px; color: #3A3833">• Design responsivo</li>
+<li style="font-size: 13px; color: #3A3833">• Formulário e WhatsApp de contato</li>
+</ul>
+<a href="https://wa.me/5535998832986?text=Ol%C3%A1!%20Tenho%20interesse%20no%20pacote%20Site%20Institucional." style="margin-top: auto; text-align: center; padding: 12px 20px; background: #1E3A5F; color: #FFFFFF; font-weight: 600; font-size: 14px; border-radius: 8px">Quero este plano</a>
+</div>
+
+<div style="flex: 1; min-width: min(230px, 100%); background: #FFFFFF; border: 1px solid #E4E0D4; border-radius: 12px; padding: 26px; display: flex; flex-direction: column; gap: 14px">
+<h3 style="margin: 0; font-size: 18px; font-weight: 600; color: #1A1A1A">Sistema sob medida</h3>
+<div><span style="font-size: 28px; font-weight: 700; color: #1E3A5F">Sob consulta</span></div>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 6px">
+<li style="font-size: 13px; color: #3A3833">• Levantamento de requisitos</li>
+<li style="font-size: 13px; color: #3A3833">• Back-end em Python</li>
+<li style="font-size: 13px; color: #3A3833">• Banco de dados incluído</li>
+</ul>
+<a href="https://wa.me/5535998832986?text=Ol%C3%A1!%20Tenho%20interesse%20em%20um%20sistema%20sob%20medida." style="margin-top: auto; text-align: center; padding: 12px 20px; border: 1px solid #1E3A5F; color: #1E3A5F; font-weight: 600; font-size: 14px; border-radius: 8px">Quero este plano</a>
+</div>
+
+</div>
+
+<div class="maint-band" style="background: #F3F1EA; border: 1px solid #E4E0D4; border-radius: 12px; padding: 24px 28px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-size: 18px; font-weight: 600; color: #1A1A1A">Já tem um site?</h3>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #6B675F">Ofereço manutenção mensal a partir de <strong style="color: #1E3A5F; font-weight: 600">R$ 59,00/mês</strong> — atualizações, ajustes e suporte.</p>
+</div>
+<a href="https://wa.me/5535998832986?text=Ol%C3%A1!%20Tenho%20interesse%20na%20manuten%C3%A7%C3%A3o%20mensal%20do%20meu%20site." class="maint-cta" style="text-align: center; padding: 12px 20px; border: 1px solid #1E3A5F; color: #1E3A5F; font-weight: 600; font-size: 14px; border-radius: 8px; white-space: nowrap">Quero manutenção</a>
+</div>
+</section>
+
+<section id="faq" style="padding: 80px var(--pad-x); display: flex; flex-direction: column; gap: 28px; background: #F3F1EA; box-sizing: border-box">
+<h2 style="margin: 0; font-size: var(--h2-size); font-weight: 700; color: #1A1A1A">Perguntas frequentes</h2>
+<div style="display: flex; flex-direction: column; gap: 22px; max-width: 800px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-size: 16px; font-weight: 600; color: #1A1A1A">Quanto tempo leva para o site ficar pronto?</h3>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #6B675F">Depende do escopo do projeto — no orçamento eu já informo um prazo estimado.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-size: 16px; font-weight: 600; color: #1A1A1A">Preciso ter domínio e hospedagem?</h3>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #6B675F">Não é obrigatório — posso te orientar sobre as melhores opções para o seu caso.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-size: 16px; font-weight: 600; color: #1A1A1A">O site funciona bem no celular?</h3>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #6B675F">Sim, todo site é feito de forma responsiva, adaptado para celular, tablet e computador.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-size: 16px; font-weight: 600; color: #1A1A1A">Como funciona o pagamento?</h3>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #6B675F">Normalmente combinamos uma entrada e o restante na entrega — os detalhes ficam definidos no orçamento.</p>
+</div>
+</div>
+</section>
+
+<section id="contato" style="padding: 90px var(--pad-x); background: #1E3A5F; display: flex; flex-direction: column; gap: 22px; align-items: flex-start; box-sizing: border-box">
+<h2 style="margin: 0; font-size: var(--h2-size); font-weight: 700; color: #FFFFFF">Pronto para colocar seu site no ar?</h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #E7E4DC; max-width: 600px">Fale comigo agora e vamos tirar seu projeto do papel.</p>
+<div style="display: flex; gap: 16px; flex-wrap: wrap; margin-top: 6px">
+<a href="https://wa.me/5535998832986?text=Ol%C3%A1!%20Vi%20o%20site%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener" style="padding: 16px 28px; background: #FFFFFF; color: #1E3A5F; font-weight: 600; font-size: 16px; border-radius: 8px">Chamar no WhatsApp</a>
+<a href="https://github.com/Richard-456" target="_blank" rel="noopener"  style="padding: 16px 28px; border: 1px solid #FFFFFF; color: #FFFFFF; font-weight: 600; font-size: 16px; border-radius: 8px">GitHub</a>
+</div>
+</section>
+
+<footer style="padding: 30px var(--pad-x); background: #1E3A5F; border-top: 1px solid rgba(255,255,255,0.15); box-sizing: border-box; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px">
+<div style="font-size: 13px; color: #C9C4B6">© 2026 Richard.dev — Todos os direitos reservados.</div>
+<div style="font-size: 13px; color: #C9C4B6">@_richard_lp · Cambuí-MG, Brasil</div>
+
+</footer>
+
+</div>
+</body>
+</html>
